@@ -410,7 +410,7 @@ hr {
 		    position: absolute;
 				/* margin-right: 50em; */
 				/* margin-left: auto; */
-		    /* background-color: #f1f1f1; */
+		    background-color: #F7EEE9;
 		    min-width: 15%;
 		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 				z-index: 1;
@@ -430,7 +430,7 @@ hr {
 		}
 
 		/* Change color of dropdown links on hover */
-		.dropdown-content a:hover {background-color: #ddd}
+		.dropdown-content a:hover {background-color: #E3DBD3}
 
 		.dropdown:hover .dropdown-content {
 		    display: block;

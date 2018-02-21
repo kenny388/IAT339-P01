@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>City of Burnaby</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/onlineservices.css">
+    <link rel="stylesheet" href="css/grid.css">
+	  <link rel="stylesheet" href="css/onlineservicesgrid.css">
+    <link rel="stylesheet" href="css/onlineservicesgridextra.css">
+
+
+  </head>
+
+
+<body>
+<div class="kclogo">
+<a href="#">
+<img alt="XD" src="img/kc_logo.png" width="180" height="180">
+</a>
+</div>
+
+<div class="container">
+
+
+
+
+        <div class="item1"><strong><a href="#">HOME</a></strong></div>
+
+<div class="dropdown">
+         <strong><a class="item2, dropbtn" href="#" onclick="myFunction()" >SHOPPING</a></strong>
+         <div id="myDropdown" class="dropdown-content">
+           <a href="#">Link 1</a>
+           <a href="#">Link 2</a>
+           <a href="#">Link 3</a>
+         </div>
+       </div>
+
+         <div class="item3"><strong><a href="#">CONTACT INFO</a></strong></div>
+
+        <div class="item4"><strong><a href="#">HOURS & LOCATION</a></strong></div>
+
+        <div class="item5"><strong><a href="#">NEWS</a></strong></div>
+
+      </div>
+
+
+        <!-- <input type="text" name="search" placeholder="Search" id="searchform"> -->
+
+
+      <!-- <div class="col-2of10"><div id="Blank"></div></div> -->
+
+      <!-- <div id="sidenav">
+
+        <div id="sidenavtext">
+
+        <div id="sidenavtextelement" ><strong><a href="#">City Houses</a></div>
+        <div id="sidenavtextelement" ><strong><a href="#">City Spaces</a></div>
+        <div id="sidenavtextelement" ><strong><a href="#">Dog Tag License Renewal</a></div>
+        <div id="sidenavtextelement" ><strong><a href="#">Giving Feedback</a></div>
+        <div id="sidenavtextelement" ><strong><a href="#">Home Owner Grant</a></div>
+        <div id="sidenavtextelement" ><strong><a href="#">Pay Parking Ticket</a></div>
+        <div id="sidenavtextelement" ><strong><a href="#">Utility Bills</a></div>
+        <div id="sidenavtextelement" ><strong><a href="#">Water Saver Kits</a></div>
+      </div>
+
+   	 </div> -->
+
+
+     <!-- <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div> -->
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+		<!--Content-->
+
+	    <!--End Of Content-->
+
+      <!--footer bar-->
+    <div id="footer">
+
+       <hr>
+
+       <div id="footerlinkleft">
+
+        <a href="http://www.burnaby.ca/Page306.aspx">Contact Us</a><br>
+        <a href="http://www.burnaby.ca/Our-City-Hall/City-Departments/Human-Resources/Career-Information.html">Careers</a><br>
+        <a href="https://portal.burnaby.ca/irj/portal/ext/?spnego=disabled">Portal Login</a><br>
+        <a href="http://www.burnaby.ca/SiteMap.html">Sitemap</a>
+
+      </div>
+
+
+      <div id="footerlinkright">
+
+        <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Disclaimer</a><br>
+        <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Content Use</a><br>
+        <a href="http://www.burnaby.ca/Freedom-of-Information-and-Protection-of-Privacy-Act.html">Privacy Policy</a><br>
+        <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Copyright</a>
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+  </body>
+</html>

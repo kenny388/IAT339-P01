@@ -140,11 +140,11 @@ a:active, a:hover {
   color: #6E6E6E;
 }
 
-#buttons a:link {color: white;}
+/* #buttons a:link {color: white;}
 #buttons a:visited {color: white;}
 #buttons a:hover{
   color: #6E6E6E;
-}
+} */
 
 /* #pagetop {
 	position:absolute;
@@ -371,11 +371,11 @@ hr {
 	border: 0px;
 }
 
-.button {
+/* .button {
         background-color: #444444;
         padding:12px;
         color: white;
-    }
+    } */
 
 		.dropbtn {
 		    /* background-color: #3498DB;

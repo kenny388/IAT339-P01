@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>ProductDetail</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/productDetail.css">
+  <link rel="stylesheet" href="css/grid.css">
+
+
+
+</head>
+
+
+<body>
+  <div class="kclogo">
+    <a href="#">
+      <img alt="XD" src="img/kc_logo.png" width="180" height="180">
+    </a>
+  </div>
+
+  <div class="container">
+
+
+
+
+    <div class="item1"><strong><a href="#">HOME</a></strong></div>
+
+    <div class="dropdown">
+      <strong><a class="item2, dropbtn" href="#" onclick="myFunction()" >SHOPPING</a></strong>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+    <div class="item3"><strong><a href="#">CONTACT INFO</a></strong></div>
+
+    <div class="item4"><strong><a href="#">HOURS & LOCATION</a></strong></div>
+
+    <div class="item5"><strong><a href="#">NEWS</a></strong></div>
+
+  </div>
+
+
+  <div class="BigImg">
+    <!-- <img src="img/chair_1.jpg"></img> -->
+  </div>
+
+  <div class="productList">
+    <div class="product1">
+      </div>
+
+      <div class="product2">
+        </div>
+
+        <div class="product3">
+          </div>
+
+        </div>
+
+  <div class="content">
+    <h1>Comfy Chair</h1>
+    <a href="#"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p></a>
+    <h2>$2445 CAD</h2>
+    <p class="description">Originally created as a variation on the classic Thonet bent-wood tradition,
+      the Duet Chair is actually made from a series of carved wood components, revealing
+      a stunning composition of grain patterns. Once carved, each component is joined with
+      mortise and tenon for a seamless, stable frame. Designed by neri&hu and manufactured by De La Espada for
+      the neri&hu brand.</p>
+    <h2>DIMENSIONS</h2>
+    <p>W22 1/2 × D20 3/4 × H30 1/8 ”, seat height 18 ”, arm height 27 1/3 ”</p>
+
+
+    <button class="buttonBuy"type="button">Buy</button>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+<!--Content-->
+
+<!--End Of Content-->
+
+<!--footer bar-->
+<div id="footer">
+
+  <hr>
+
+  <div id="footerlinkleft">
+
+    <a href="http://www.burnaby.ca/Page306.aspx">Contact Us</a><br>
+    <a href="http://www.burnaby.ca/Our-City-Hall/City-Departments/Human-Resources/Career-Information.html">Careers</a><br>
+    <a href="https://portal.burnaby.ca/irj/portal/ext/?spnego=disabled">Portal Login</a><br>
+    <a href="http://www.burnaby.ca/SiteMap.html">Sitemap</a>
+
+  </div>
+
+
+  <div id="footerlinkright">
+
+    <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Disclaimer</a><br>
+    <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Content Use</a><br>
+    <a href="http://www.burnaby.ca/Freedom-of-Information-and-Protection-of-Privacy-Act.html">Privacy Policy</a><br>
+    <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Copyright</a>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+</body>
+</html>

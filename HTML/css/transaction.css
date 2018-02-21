@@ -1,0 +1,169 @@
+/*Start Of Content*/
+
+#Content {
+	position:absolute;
+	top:370px;
+	left:25.6%;
+	width:63%;
+	height:30px;
+	padding:20px;
+	
+	padding:2%;
+	border: none 2px solid;
+	background-color:#FFFFFF;
+}
+
+/*The Transaction title*/
+
+h1 {
+	margin-top: 0em;
+	margin-bottom: 3rem;
+
+}
+
+/*Steps (Search Select Transaction)*/
+
+#Step1 {
+	position:absolute;
+	top:100px;
+	left:3.2%;
+	width:29.8%;
+	height:50px;
+	z-index:2;
+	padding:20px;
+	border: none 2px solid;
+	background-color:#AAAAAA;
+	text-align:center;
+}
+
+#Step2 {
+	position:absolute;
+	top:100px;
+	left:35%;
+	width:29.8%;
+	height:50px;
+	z-index:2;
+	padding:20px;
+	border: none 2px solid;
+	background-color:#AAAAAA;
+	text-align:center;
+}
+
+#Step3 {
+	position:absolute;
+	top:100px;
+	left:66.7%;
+	width:29.8%;
+	height:50px;
+	z-index:2;
+	padding:20px;
+	border: none 2px solid;
+	background-color:#63BDD6;
+	text-align:center;
+
+}
+
+/*First Part of Information: Customer Details*/
+
+#customerdetailsH2padding {
+	background-color: rgb(100, 100, 100);
+}
+
+#paymentdetailsH2padding {
+	background-color: rgb(100, 100, 100);
+}
+
+#customerdetails h2 {
+	font-size: 1rem;
+	padding: 0.7rem 0rem;
+	color: white;
+	margin-bottom: 2rem;
+	margin-left:0.1rem;
+	margin-top: 7.5rem;
+}
+
+.informations {
+	font-size: .9rem;
+	text-align: right;
+
+	/*margin-left: 1%;*/
+}
+
+.informations input {
+		margin-right: 33%;
+	height: 1.1rem;
+	width: 31.92%;
+	margin-bottom: 1rem;
+}
+
+#Emails input {
+	margin-bottom: 3rem;
+}
+
+/*Second Part of Information: Payment Details*/
+
+h2.paymentdetailsH2 {
+
+	background-color: rgb(100, 100, 100);
+	font-size: 1rem;
+	padding: 0.7rem 0rem;
+	color: white;
+	margin-bottom: 2rem;
+	margin-left:0.1rem;
+}
+
+table {
+	width:100%;
+}
+
+table, th, td {
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+
+tr.firstline {
+	height: 3rem;
+
+	background-color: rgb(160, 160, 160);
+	color: white;
+}
+
+tr.secondline {
+	height: 2rem;
+}
+
+tr.thirdline {
+	height: 2rem;
+	background-color: rgb(160, 160, 160);
+	color: white;
+}
+
+#paymentdetails p {
+	margin-right: 14%;
+	margin-left: 13%;
+	margin-top: 2rem;
+	font-size: 0.9rem;
+	max-width: 53rem;
+	text-align: center;
+}
+
+#paymentdetails p.orderid {
+	margin-left: 14%;
+
+}
+
+#paymentdetails button {
+	padding: 0.4rem 4em;
+	margin-right: 0.3rem;
+}
+
+#paymentdetails button.CancelButton {
+	margin-left: 30%;
+}
+
+/*End of Content*/
+
+#buttons {
+	text-align:center;
+}
+

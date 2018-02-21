@@ -1,0 +1,36 @@
+@media (max-width: 365px) {	
+
+	body {
+		font-size: 0.7em;
+	}
+	
+	#footer {
+			top:2150px;
+		}
+}
+
+@media (max-width: 347px) {
+	#HomeOwnerGrant{
+		position: absolute;
+		top: 100rem;
+		left: -20rem;
+	}
+
+	#footer {
+		position:absolute;
+		top:2200px;
+	}
+}
+
+@media (max-width: 324px) {
+	#HomeOwnerGrant{
+		position: absolute;
+		top: 103rem;
+		left: -20rem;
+	}
+
+	#footer {
+		position:absolute;
+		top:2240px;
+	}
+}

@@ -1,0 +1,69 @@
+#Step1 {
+	position:absolute;
+	top:100px;
+	left:0.5%;
+	width:31.5%;
+	height:50px;
+	z-index:2;
+	padding:20px;
+	border: none 2px solid;
+	background-color:#63BDD6;
+	text-align:center;
+}
+
+#Step2 {
+	position:absolute;
+	top:100px;
+	left:33.8%;
+	width:31.5%;
+	height:50px;
+	z-index:2;
+	padding:20px;
+	border: none 2px solid;
+	background-color:#AAAAAA;
+	text-align:center;
+}
+
+#Step3 {
+	position:absolute;
+	top:100px;
+	left:67%;
+	width:31.5%;
+	height:50px;
+	z-index:2;
+	padding:20px;
+	border: none 2px solid;
+	background-color:#AAAAAA;
+	text-align:center;
+
+}
+
+#ContentSearch {
+	position:absolute;
+	top:370px;
+	left:26.2%;
+	width:60%;
+	height:30px;
+	z-index:1;
+	padding:20px;
+	border: none 2px solid;
+	background-color:#FFFFFF;
+	text-align:center;
+
+}
+
+#searchform { width: 90%; }
+#otherform { width: 90%; }
+
+#formlabel {
+	position:absolute;
+	left:29%;
+	width:23%;
+}
+
+#forms {
+	position:relative;
+	left:53%;
+	width:40%;
+}
+

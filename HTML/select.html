@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>City of Burnaby</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/select.css">
+    <link rel="stylesheet" href="css/selectgrid.css">
+    <link rel="stylesheet" href="css/grid.css">
+
+
+  </head>
+
+
+  <body>
+
+   <div id="pagetop">
+    
+     
+      <a href="http://www.burnaby.ca/Page306.aspx">Contact</a> | <a href="http://www.burnaby.ca/Our-City-Hall/City-Departments/Human-Resources/Career-Information.html">Careers</a> | <a href="https://portal.burnaby.ca/irj/portal/ext/?spnego=disabled">Portal Login</a> | <a href="http://www.google.ca">Translate</a>
+    
+   
+   </div>
+
+   <div class="grid">
+
+
+    <a href="http://www.burnaby.ca/Home.html"><img class="logo" src="http://www.burnaby.ca/Sites/3/templates/images/cob/logo.png" alt=""></a>
+    <img class="header-img" src="img/HeaderImage.jpg" alt="">
+
+     <div class="col-2of10"><div id="City325"><strong><a href="http://www.burnaby.ca/About-Burnaby.html">City Info</a></strong></div></div>
+     <div class="col-2of10"><div id="City"><strong><a href="http://www.burnaby.ca/About-Burnaby.html">City Information</a></strong></div></div>
+
+
+      <div class="col-2of10"><div id="OnlineServices"><strong><a href="onlineservices.html">Online Services</a></strong></div></div>
+
+      <div class="col-2of10"><div id="EventsAndActivities"><strong><a href="http://www.burnaby.ca/About-Burnaby.html">Events and Activites</a></strong></div></div>
+
+     <div class="col-2of10"> <div id="CityHall"><strong><a href="http://www.burnaby.ca/Our-City-Hall.html">City Hall</a></strong></div></div>
+
+      <div class="col-2of10"><div id="Blank"> 
+        <input type="text" name="search" placeholder="Search" id="searchform">
+      </div>
+    </div>
+
+
+      <div id="sidenav"> 
+
+        <div id="sidenavtext">
+
+        <h3>Residents</h3>
+
+        <a href="http://www.burnaby.ca/">City Houses</a><br>
+        <a href="http://www.burnaby.ca/">City Spaces</a><br>
+        <a href="http://www.burnaby.ca/">Dog Tag License Renewal</a><br>
+        <a href="http://www.burnaby.ca/">Giving Feedback</a><br>
+        <a href="http://www.burnaby.ca/">Home Owner Grant</a><br>
+        <a href="parkingticket.html">Pay Parking Ticket</a><br>
+        <a href="http://www.burnaby.ca/">Utility Bills</a><br>
+        <a href="http://www.burnaby.ca/">Water Saver Kits</a><br>
+      </div>
+
+        <br><br><br>
+
+        <a href="index.html"><img class="pic1" src="img/clickablepicture.png" alt=""></a>
+        <br><br>
+        <a href="index.html"><img class="pic1" src="img/clickablepicture.png" alt=""></a>
+        <br><br>
+        <a href="index.html"><img class="pic1" src="img/clickablepicture.png" alt=""></a>
+        <br><br>
+     
+
+   </div>
+
+
+    <div id=Content>
+
+      <div id=Step1><strong>1. Search Ticket</strong></div>
+
+      <div id=Step2><strong>2. Select Ticket</strong></div>
+
+      <div id=Step3><strong>3. Transaction</strong></div>
+
+
+
+    <h1 id="title">Select Ticket</h1>
+    <br><br><br><br><br>
+
+    <p id="instructions">The following violation(s) were found for the information you entered as well as any other licence plates on your record. Select the violation(s) you would like to pay and click "Next".</p>
+	
+	
+	<table id="atable">
+		<tr>				
+			<td><b>Select</b></td>
+			<td><b>Bylaw Violation Number</b></td>
+			<td><b>Issue Date</b></td>
+			<td><b>Licence Plate</b></td>
+			<td><b>Violation</b></td>
+			<td><b>Balance Due</b></td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="first" value="firstbox"><br></td>
+			<td>10000005</td>
+			<td>11/02/2011</td>
+			<td>936FTJ-BC</td>
+			<td>01034-PARK FACE WRONG DIRECTION</td>
+			<td>$80.00</td>
+		</tr>
+		<tr>
+			<td><input type="checkbox" name="second" value="secondbox"><br></td>
+			<td>10000006</td>
+			<td>11/02/2011</td>
+			<td>936FTJ-BC</td>
+			<td>01022-PARK > 12 IN FROM CURB</td>
+			<td>$80.00</td>
+		</tr>
+	</table>
+	
+	<div id="ticketinfo">
+		<h3>Select One Ticket Below</h3>
+ 
+		<h4>Ticket</h4>
+ 
+		<p>
+ 
+		Bylaw Violation Number: 10000005
+		Issue Date: 11/02/2011
+		License Plate: 936FTJ-BC
+		Violation: 01034-PARK FACE WRONG DIRECTION
+		Balance Due: $80.00
+	
+		</p>
+
+		<h4>Ticket</h4>
+
+		<p>
+	 
+		Bylaw Violation Number: 10000006
+		Issue Date: 11/02/2011
+		License Plate: 936FTJ-BC
+		Violation: 01022-PARK > 12 IN FROM CURB
+		Balance Due: $80.00
+		</p>
+	
+	<p><strong>Please select a ticket to pay.</strong></p>
+	<select>
+		<option value="10000005">10000005</option>
+	  	<option value="10000006">10000006</option>
+	</select>
+	</div> 
+	
+	<div id="buttons">
+
+			<form action="parkingticket.html">
+        <input type="submit" value="Cancel">
+      </form>
+
+      <form action="transactionpage.html">
+        <input type="submit" value="Next">
+      </form>
+		
+    </div>
+
+	
+	
+	
+
+    </div>
+
+    <div id="footer">
+
+       <hr> 
+
+       <div id="footerlinkleft">
+
+        <a href="http://www.burnaby.ca/Page306.aspx">Contact Us</a><br>
+        <a href="http://www.burnaby.ca/Our-City-Hall/City-Departments/Human-Resources/Career-Information.html">Careers</a><br>
+        <a href="https://portal.burnaby.ca/irj/portal/ext/?spnego=disabled">Portal Login</a><br>
+        <a href="http://www.burnaby.ca/SiteMap.html">Sitemap</a>
+
+      </div>
+
+
+      <div id="footerlinkright">
+
+        <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Disclaimer</a><br>
+        <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Content Use</a><br>
+        <a href="http://www.burnaby.ca/Freedom-of-Information-and-Protection-of-Privacy-Act.html">Privacy Policy</a><br>
+        <a href="http://www.burnaby.ca/Copyright---Disclaimer----Content-Use-Policy.html">Copyright</a>
+
+      </div>
+   
+
+     
+
+    </div>
+
+  </div>
+
+
+
+  </body>
+</html>
+

@@ -1,0 +1,69 @@
+/*Content*/
+
+#Content {
+	position:absolute;
+	top:370px;
+	left:25.6%;
+	width:63%;
+	height:30px;
+	z-index:1;
+	padding:20px;
+	border: none 2px solid;
+	/* background-color:#FFFFFF; */
+}
+
+body{
+	background-image: url("../img/chair_1.jpg");
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+	background-position: right;
+	    background-position-x:50em;
+	height: 100%;
+
+}
+
+
+/*The Prperty tax title*/
+
+
+h1 {
+	font-size: 1.75rem;
+	margin-top: 0em;
+	margin-bottom: 1rem;
+}
+
+h2 {
+	font-size: 1rem;
+	margin: 0 auto;
+}
+
+#duedate {
+	font-size: 1.1rem;
+	text-decoration: underline;
+}
+
+p {
+	max-width: 55rem;
+	font-size: 1rem;
+}
+
+.Ways {
+	margin-top: 2rem;
+	margin-right: 8rem;
+	display: inline-block;
+	float:left;
+	max-width: 13rem;
+}
+
+h3 {
+	font-size: 0.8rem;
+	margin: 0 auto;
+}
+
+#sidenavtext h3 {
+	font-size: 1rem;
+	margin: 0 auto;
+	font-weight: bold;
+	margin-bottom: 1.17rem;
+	margin-top: 1rem;
+}

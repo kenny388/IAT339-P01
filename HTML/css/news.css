@@ -98,12 +98,40 @@ body{
 }
 
 .content {
-position: absolute;
-margin-left: 22%;
-margin-top: 16em;
-max-width:30%;
+	display: flex;
+	 flex-direction: column;
+	position: relative;
+	float: left;
+	/* max-width: 30%; */
+	/* height: 40em; */
+	top: 5em;
+	left: 15%;
 
+}
 
+.newsBlock {
+display: flex;
+ align-items: center;
+height: 20em;
+border-style: solid;
+margin-bottom: 2em;
+
+}
+
+.newsImage {
+height: 180px;
+margin: 2em;
+
+}
+
+.newsContent {
+margin: 2em;
+
+}
+
+.date {
+	color: grey;
+	height: 0.5em;
 
 }
 

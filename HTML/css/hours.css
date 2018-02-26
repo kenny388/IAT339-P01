@@ -98,11 +98,13 @@ body{
 }
 
 .content {
-position: absolute;
-margin-left: 22%;
-margin-top: 16em;
-max-width:30%;
-
+	display: block;
+	position: relative;
+	float: left;
+	max-width: 30%;
+	height: 40em;
+	top: 5em;
+	left: 23%;
 
 
 }

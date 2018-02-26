@@ -9,128 +9,18 @@ body{
 }
 
 
-.productList{
-
-			/* padding: 50px; */
-			position: absolute;
-			/* margin-left: 22%; */
-		  display: flex;
-			flex-direction: flow;
-			margin-top: 49em;
-		  margin-left:4.7%;
-		  /* border-style: solid; */
-			flex-wrap: wrap;
-			width: 30%;
-		  justify-content:space-between;
-			  /* justify-content: flex-start; */
-				/* align-self: stretch; */
-		}
-
-.product1 {
-  background-image: url("../img/product1.jpg");
-  background-size: cover;
-  background-position:center;
-  background-color: grey;
-  /* padding:20em; */
-
-  flex-shrink: 1; /* default 1 */
-	top:12em;
-	/* left:0%; */
-	width:30%;
-	min-width: 5em;
-	height:8em;
-	line-height: 5em;
-	/* z-index:5; */
-	/* padding:1.9em; */
-	border: none 0px solid;
-	color: black;
-	text-align:center;
-	/* background-color:#404040; */
-	/* flex-grow: 1; */
-  border-style: solid;
-}
-
-.product2{
-  background-image: url("../img/product2.jpg");
-  background-size: cover;
-  background-position:center;
-
-  background-color: grey;
-  flex-shrink: 1; /* default 1 */
-	top:12em;
-	/* left:0%; */
-	width:30%;
-	min-width: 5em;
-	height:8em;
-	line-height: 5em;
-	/* z-index:5; */
-	/* padding:1.9em; */
-	border: none 0px solid;
-	color: black;
-	text-align:center;
-	/* background-color:#404040; */
-	/* flex-grow: 1; */
-  border-style: solid;
-
-}
-
-.product3{
-  background-image: url("../img/product3.jpg");
-  background-size: cover;
-  background-position:center;
-  background-color: grey;
-  flex-shrink: 1; /* default 1 */
-	top:12em;
-	/* left:0%; */
-	width:30%;
-	min-width: 5em;
-	height:8em;
-	line-height: 5em;
-	/* z-index:5; */
-	/* padding:1.9em; */
-	border: none 0px solid;
-	color: black;
-	text-align:center;
-	/* background-color:#404040; */
-
-  border-style: solid;
-
-}
-
 .content {
-position: absolute;
-margin-left: 22%;
-margin-top: 16em;
-max-width:30%;
-
+display: block;
+position: relative;
+float: left;
+max-width: 30%;
+height: 40em;
+top: 5em;
+left: 23%;
 
 
 }
 
 .description{
   max-width: 40em;
-}
-
-
-.buttons{
-background: white;
-}
-
-
-
-.buttonBuy {
-		background-color:white;
-		border: 2px solid black;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    font-size: 20px;
-		margin: 45px 4px;
-
-}
-.buttonBuy:hover{
-	color: grey;
-	border:2px solid grey;
 }

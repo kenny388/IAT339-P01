@@ -1,12 +1,32 @@
+#need0 {
+	/* position: absolute; */
+/* height: 0px; */
+/* top:-10%; */
 
+}
+
+.Images {
+	position: relative;
+	float: left;
+width: 30%;
+/* margin-left:4.7%; */
+/* left: -10em; */
+top: 5em;
+left: 10%;
+
+
+}
 
 .BigImg {
-	position: absolute;
+
+
+	/* position: relative; */
 		  border-style: solid;
-		  margin-top: 18em;
+			/* float: left; */
+		  /* margin-top: 18em; */
 		  /* padding: 20em; */
-			margin-left:4.7%;
-		  width: 30%;
+
+		  /* width: 30%; */
 		  height: 30em;
 
 		  background-image: url("../img/product1.jpg");
@@ -18,15 +38,15 @@
 		.productList{
 
 			/* padding: 50px; */
-			position: absolute;
+			position: relative;
 			/* margin-left: 22%; */
 		  display: flex;
 			flex-direction: flow;
-			margin-top: 49em;
-		  margin-left:4.7%;
+			margin-top: 2em;
+
 		  /* border-style: solid; */
 			flex-wrap: wrap;
-			width: 30%;
+			/* width: 30%; */
 		  justify-content:space-between;
 			  /* justify-content: flex-start; */
 				/* align-self: stretch; */
@@ -103,21 +123,14 @@
 
 }
 
-.chair1Button{
-  margin-top: 25em;
-}
-
-.chair2Button{
-  margin-top: 25em;
-}
-.chair3Button{
-  margin-top: 25em;
-}
 .content {
-position: absolute;
-margin-left: 40%;
-margin-top: 16em;
-
+	display: block;
+position: relative;
+float: right;
+width: 40%;
+height: 40em;
+top: 5em;
+right: 15%;
 
 
 }
@@ -130,8 +143,6 @@ margin-top: 16em;
 .buttons{
 background: white;
 }
-
-
 
 .buttonBuy {
 		background-color:white;

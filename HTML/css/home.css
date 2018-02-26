@@ -1,7 +1,7 @@
 /*Content*/
 
 #Content {
-	position:absolute;
+	position:relative;
 	top:370px;
 	left:25.6%;
 	width:63%;
@@ -31,4 +31,9 @@ body{
 	margin: 0 auto;
 	margin-bottom: 1.17rem;
 	margin-top: 1rem;
+}
+
+#footer {
+	top:80em;
+
 }

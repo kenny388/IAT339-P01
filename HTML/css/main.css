@@ -318,18 +318,6 @@ a:active, a:hover {
 
 }
 
-#Content {
-	position:absolute;
-	top:370px;
-	left:26.2%;
-	width:64%;
-	height:30px;
-	z-index:1;
-	padding:20px;
-	border: none 2px solid;
-	background-color:#FFFFFF;
-
-}
 
 #buttons {
 	text-align:center;
@@ -416,7 +404,7 @@ hr {
 		    position: absolute;
 				/* margin-right: 50em; */
 				/* margin-left: auto; */
-		    background-color: #F7EEE9;
+		    background-color: rgba(247,238,233,0.9);
 		    min-width: 15%;
 		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 				z-index: 1;

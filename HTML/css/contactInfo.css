@@ -24,3 +24,8 @@ left: 23%;
 .description{
   max-width: 40em;
 }
+
+#footer {
+	top:70em;
+
+}

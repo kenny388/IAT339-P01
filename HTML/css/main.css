@@ -5,6 +5,8 @@ body {
 	/* padding: 1em; */
 }
 
+
+
 .container {
 	position: relative;
 	float: right;
@@ -365,10 +367,14 @@ a:active, a:hover {
 }
 
 hr {
-	width:.1em;
-	height: 4em;
-	background:white;
-	border: 0px;
+	/* width:4em;  */
+	/* height: 0.1em;
+	background: black;
+	border: 0px; */
+	border: 0;
+	 height: 0;
+	 border-top: 1px solid rgba(0, 0, 0, 0.1);
+	 border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* .button {

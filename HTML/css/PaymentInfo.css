@@ -34,7 +34,7 @@ left: 10%;
 		  /* padding: 20em; */
 
 		  /* width: 30%; */
-		  height: 30em;
+		  height: 15em;
 
 		  background-image: url("../img/product1.jpg");
 		  background-size: cover;
@@ -166,4 +166,9 @@ background: white;
 .buttonBuy:hover{
 	color: grey;
 	border:2px solid grey;
+}
+
+.priceCount {
+float: right;
+
 }

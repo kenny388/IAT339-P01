@@ -1,10 +1,3 @@
-#need0 {
-	/* position: absolute; */
-/* height: 0px; */
-/* top:-10%; */
-
-}
-
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -12,28 +5,13 @@ input[type=text] {
     box-sizing: border-box;
 }
 
-.Images {
-	position: relative;
-	float: left;
-width: 30%;
-/* margin-left:4.7%; */
-/* left: -10em; */
-top: 5em;
-left: 10%;
-
-
-}
-
 .BigImg {
-
-
-	/* position: relative; */
+	position: absolute;
 		  border-style: solid;
-			/* float: left; */
-		  /* margin-top: 18em; */
+		  margin-top: 18em;
 		  /* padding: 20em; */
-
-		  /* width: 30%; */
+			margin-left:4.7%;
+		  width: 30%;
 		  height: 30em;
 
 		  background-image: url("../img/product1.jpg");
@@ -45,15 +23,15 @@ left: 10%;
 		.productList{
 
 			/* padding: 50px; */
-			position: relative;
+			position: absolute;
 			/* margin-left: 22%; */
 		  display: flex;
 			flex-direction: flow;
-			margin-top: 2em;
-
+			margin-top: 49em;
+		  margin-left:4.7%;
 		  /* border-style: solid; */
 			flex-wrap: wrap;
-			/* width: 30%; */
+			width: 30%;
 		  justify-content:space-between;
 			  /* justify-content: flex-start; */
 				/* align-self: stretch; */
@@ -130,40 +108,21 @@ left: 10%;
 
 }
 
+.chair1Button{
+  margin-top: 25em;
+}
+
+.chair2Button{
+  margin-top: 25em;
+}
+.chair3Button{
+  margin-top: 25em;
+}
 .content {
-	display: block;
-position: relative;
-float: right;
-width: 40%;
-height: 40em;
-top: 5em;
-right: 15%;
+position: absolute;
+margin-left: 40%;
+margin-top: 30em;
 
 
-}
 
-.description{
-  max-width: 40em;
-}
-
-
-.buttons{
-background: white;
-}
-
-.buttonBuy {
-		background-color:white;
-		border: 2px solid black;
-    color: black;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    font-size: 20px;
-		margin: 45px 4px;
-
-}
-.buttonBuy:hover{
-	color: grey;
-	border:2px solid grey;
 }

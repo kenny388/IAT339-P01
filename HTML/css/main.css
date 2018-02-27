@@ -23,7 +23,7 @@ float: right;
   border-style: solid;
 	flex-wrap: wrap;
 	width: 77%;
-	  /* justify-content: flex-start; */
+	  /* justify-content: center; */
 		/* align-self: stretch; */
 
 }
@@ -38,7 +38,7 @@ float: right;
 	line-height: 5em;
 	/* z-index:5; */
 	/* padding:1.9em; */
-	border: none 0px solid;
+	/* border: none 0px solid; */
 	color: black;
 	text-align:center;
 	/* background-color:#404040; */
@@ -53,14 +53,19 @@ float: right;
 	width:15%;
 	min-width: 13em;
 	height:5em;
+	align-items: center;
+	line-height: 5em;
 	/* line-height: 5em; */
 	/* z-index:5; */
 	/* padding:1.9em; */
 	/* border: none 2px solid; */
+	/* border: none 0px solid; */
 	color: black;
 	text-align:center;
 	/* background-color:#404040; */
 	flex-grow: 1;
+	align-items: center;
+
 }
 .item3 {
   flex-shrink: 3; /* default 1 */
@@ -379,7 +384,7 @@ hr {
     } */
 
 		.buttonBuy {
-			border-radius: 6px;	
+			border-radius: 6px;
 
 		}
 
@@ -408,6 +413,7 @@ hr {
 				min-width: 13em;
 				text-align:center;
 				flex-grow: 1;
+
 		}
 
 		/* Dropdown Content (Hidden by Default) */

@@ -33,12 +33,13 @@
 	width:30%;
 	min-width: 13em;
 	height:30em;
-	line-height: 5em;
+	line-height: 1.2em;
+	font-size: 0.9em;
 	/* z-index:5; */
 	/* padding:1.9em; */
 	border: none 0px solid;
 	color: black;
-	text-align:center;
+	/* text-align:center; */
 	/* background-color:#404040; */
 	/* flex-grow: 1; */
   border-style: solid;
@@ -59,16 +60,17 @@
 	width:30%;
 	min-width: 13em;
 	height:30em;
-	line-height: 5em;
+	line-height: 1.2em;
 	/* z-index:5; */
 	/* padding:1.9em; */
 	border: none 0px solid;
 	color: black;
-	text-align:center;
+	/* text-align:center; */
 	/* background-color:#404040; */
 	/* flex-grow: 1; */
   border-style: solid;
 	margin-bottom: 5em;
+	font-size: 0.9em;
 
 }
 
@@ -83,28 +85,29 @@
 	width:30%;
 	min-width: 13em;
 	height:30em;
-	line-height: 5em;
+	line-height: 1.2em;
 	/* z-index:5; */
 	/* padding:1.9em; */
 	border: none 0px solid;
 	color: black;
-	text-align:center;
+	/* text-align:center; */
 	/* background-color:#404040; */
 
   border-style: solid;
 	margin-bottom: 3em;
+	font-size: 0.9em;
 
 }
 
 .chair1Button{
-  margin-top: 25em;
+  margin-top: 26em;
 }
 
 .chair2Button{
-  margin-top: 25em;
+  margin-top: 26em;
 }
 .chair3Button{
-  margin-top: 25em;
+  margin-top: 26em;
 }
 #footer {
 	top:27em;

@@ -5,6 +5,10 @@ body {
 	/* padding: 1em; */
 }
 
+.floatRight {
+float: right;
+
+}
 
 
 .container {

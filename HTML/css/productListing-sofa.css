@@ -21,7 +21,7 @@
 
 .product1 {
 
-  background-image: url("../img/product1.jpg");
+  background-image: url("../img/sofa1.jpg");
   background-size: cover;
   background-position:center;
   background-color: grey;
@@ -45,12 +45,12 @@
   border-style: solid;
 	border-width: 0.15em;
 
-	margin-bottom: 5em;
+	margin-bottom: 10em;
 }
 
 .product2{
 	display: block;
-  background-image: url("../img/product2.jpg");
+  background-image: url("../img/sofa3.jpg");
   background-size: cover;
   background-position:center;
 
@@ -72,13 +72,13 @@
   border-style: solid;
 	border-width: 0.15em;
 
-	margin-bottom: 5em;
+	margin-bottom: 10em;
 	font-size: 0.9em;
 
 }
 
 .product3{
-  background-image: url("../img/product3.jpg");
+  background-image: url("../img/sofa4.jpg");
   background-size: cover;
   background-position:center;
   background-color: grey;
@@ -99,7 +99,34 @@
   border-style: solid;
 	border-width: 0.15em;
 
-	margin-bottom: 3em;
+	margin-bottom: 10em;
+	font-size: 0.9em;
+
+}
+
+.product4{
+  background-image: url("../img/sofa2.jpg");
+  background-size: cover;
+  background-position:center;
+  background-color: grey;
+  flex-shrink: 1; /* default 1 */
+	top:12em;
+	/* left:0%; */
+	width:30%;
+	min-width: 13em;
+	height:30em;
+	line-height: 1.2em;
+	/* z-index:5; */
+	/* padding:1.9em; */
+	border: none 0px solid;
+	color: black;
+	/* text-align:center; */
+	/* background-color:#404040; */
+
+  border-style: solid;
+	border-width: 0.15em;
+
+	margin-bottom: 10em;
 	font-size: 0.9em;
 
 }

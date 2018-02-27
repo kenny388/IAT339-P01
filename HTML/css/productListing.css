@@ -37,12 +37,13 @@
 	font-size: 0.9em;
 	/* z-index:5; */
 	/* padding:1.9em; */
-	border: none 0px solid;
+	/* border: none 0px solid; */
 	color: black;
 	/* text-align:center; */
 	/* background-color:#404040; */
 	/* flex-grow: 1; */
   border-style: solid;
+	border-width: 0.15em;
 
 	margin-bottom: 5em;
 }
@@ -69,6 +70,8 @@
 	/* background-color:#404040; */
 	/* flex-grow: 1; */
   border-style: solid;
+	border-width: 0.15em;
+
 	margin-bottom: 5em;
 	font-size: 0.9em;
 
@@ -94,20 +97,22 @@
 	/* background-color:#404040; */
 
   border-style: solid;
+	border-width: 0.15em;
+
 	margin-bottom: 3em;
 	font-size: 0.9em;
 
 }
 
 .chair1Button{
-  margin-top: 26em;
+  margin-top: 20.5em;
 }
 
 .chair2Button{
-  margin-top: 26em;
+  margin-top: 20.5em;
 }
 .chair3Button{
-  margin-top: 26em;
+  margin-top: 20.5em;
 }
 #footer {
 	top:27em;

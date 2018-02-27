@@ -33,6 +33,7 @@ left: 10%;
 		  background-size: cover;
 		  background-position:center;
 		  background-color: grey;
+			border-width: 0.12em;
 
 		}
 		.productList{
@@ -74,10 +75,11 @@ left: 10%;
 	/* background-color:#404040; */
 	/* flex-grow: 1; */
   border-style: solid;
+	border-width: 0.12em;
 }
 
 .product2{
-  background-image: url("../img/product2.jpg");
+  background-image: url("../img/Product1_pic2.jpg");
   background-size: cover;
   background-position:center;
 
@@ -97,11 +99,12 @@ left: 10%;
 	/* background-color:#404040; */
 	/* flex-grow: 1; */
   border-style: solid;
+	border-width: 0.12em;
 
 }
 
 .product3{
-  background-image: url("../img/product3.jpg");
+  background-image: url("../img/Product1_pic3.jpg");
   background-size: cover;
   background-position:center;
   background-color: grey;
@@ -120,6 +123,7 @@ left: 10%;
 	/* background-color:#404040; */
 
   border-style: solid;
+	border-width: 0.12em;
 
 }
 

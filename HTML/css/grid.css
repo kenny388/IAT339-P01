@@ -15,8 +15,8 @@
 .container {
 	width: 100%;
 	flex-direction: column;
-	  /* justify-content: space-around; */
-		align-items: center;
+	align-items: center;
+	margin-top: 3em;
 }
 
 .dropdown {
@@ -32,9 +32,11 @@
 	height:1em;
 }
 
-.item5 {
-	
+.logoImage {
+width: 20%;
+height: auto;
 }
+
 
 body{
 	background-position: bottom center;

@@ -44,24 +44,24 @@
         </div>
 
 <div class="Images">
-  <a href="#">
-  <div class="BigImg">
+  <!-- <a href="#"> -->
+  <div class="BigImg" id="bigImg">
     <!-- <img src="img/chair_1.jpg"></img> -->
   </div>
-</a>
+<!-- </a> -->
 
   <div class="productList">
-    <a href="#" class="product1">
+    <a class="product1" onclick="return switchFull(1)">
     <div>
       </div>
     </a>
 
-<a href="#"  class="product2">
+<a href="#"  class="product2" onclick="return switchFull(2)">
       <div>
         </div>
       </a>
 
-      <a href="#" class="product3">
+      <a href="#" class="product3" onclick="return switchFull(3)">
         <div>
           </div>
         </a>
@@ -69,6 +69,48 @@
         </div>
 
       </div>
+
+
+<script type="text/javascript">
+function switchFull(what) {
+	/* Change the variable below to the appropriate location for the directory in
+	which your images reside if you are not keeping this HTML file in the same directory. */
+	var imgsDir = '';
+	/* Uncomment the two lines below and adjust the loadImg variable to the
+	actual location of your loading image if you want to use an image to
+	indicate the real picture is loading. */
+	// var loadImg = imgsDir+'ajax-loader.gif';
+	// document.getElementById('fullsize').src = loadImg;
+	/* Adjust the variables below to specify the width and height of the full-sized images */
+	var h = 250;
+	var w = 250;
+
+  if (what == 1) {
+    //processs OMG  sooo many wrong ones,  over 20 i ve tried that are not documented
+    //please  teach us javascript before even telling us to do a full website
+    // document.getElementById('bigImg').src = newImg.src;
+    // document.getElementById('bigImg').style.backgroundImage = "url("../img/product3.jpg")";
+    // document.getElementById("bigImg").style.backgroundImage = "url(../img/chair_1.jpg)";
+      // document.getElementById("bigImg").style.backgroundImage = "/img/kc_logo.png";
+      // document.getElementById("bigImg").SetAttribute("style", "background-image: url("/img/product1.jpg");");
+      document.getElementById("bigImg").style.backgroundImage = "url(img/product1.jpg)";
+  } else if (what == 2) {
+    document.getElementById("bigImg").style.backgroundImage = "url(img/product2.jpg)";
+  } else if (what == 3) {
+    document.getElementById("bigImg").style.backgroundImage = "url(img/product3.jpg)";
+  }
+	/* Adjust the variable below to match the location of the full-sized images */
+	// var imSrc = (imgsDir+'full'+what+'.jpg');
+	// var newImg = Image(w,h); // The two numbers in the Image function are optional. They specify the width and height
+	// newImg.onload = function() {
+	// 	document.getElementById('fullsize').src = newImg.src;
+	// }
+	// newImg.src = imSrc;
+	return false;
+}
+</script>
+
+
 
   <div class="content">
     <h2>Rumpa Sängen</h2>

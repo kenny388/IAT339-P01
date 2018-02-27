@@ -43,32 +43,53 @@
 
         </div>
 
-<div class="Images">
-  <a href="#">
-  <div class="BigImg">
-    <!-- <img src="img/chair_1.jpg"></img> -->
-  </div>
-</a>
-
-  <div class="productList">
-    <a href="#" class="product1">
-    <div>
-      </div>
-    </a>
-
-<a href="#"  class="product2">
-      <div>
-        </div>
-      </a>
-
-      <a href="#" class="product3">
-        <div>
+        <div class="Images">
+          <!-- <a href="#"> -->
+          <div class="BigImg" id="bigImg">
+            <!-- <img src="img/chair_1.jpg"></img> -->
           </div>
-        </a>
+        <!-- </a> -->
 
-        </div>
+          <div class="productList">
+            <a class="product1" onclick="return switchFull(1)">
+            <div>
+              </div>
+            </a>
 
-      </div>
+        <a href="#"  class="product2" onclick="return switchFull(2)">
+              <div>
+                </div>
+              </a>
+
+              <a href="#" class="product3" onclick="return switchFull(3)">
+                <div>
+                  </div>
+                </a>
+
+                </div>
+
+              </div>
+
+
+        <script type="text/javascript">
+        function switchFull(what) {
+          if (what == 1) {
+            //processs OMG  sooo many wrong ones,  over 20 i ve tried that are not documented
+            //please  teach us javascript before even telling us to do a full website
+            // document.getElementById('bigImg').src = newImg.src;
+            // document.getElementById('bigImg').style.backgroundImage = "url("../img/product3.jpg")";
+            // document.getElementById("bigImg").style.backgroundImage = "url(../img/chair_1.jpg)";
+              // document.getElementById("bigImg").style.backgroundImage = "/img/kc_logo.png";
+              // document.getElementById("bigImg").SetAttribute("style", "background-image: url("/img/product1.jpg");");
+              document.getElementById("bigImg").style.backgroundImage = "url(img/product1.jpg)";
+          } else if (what == 2) {
+            document.getElementById("bigImg").style.backgroundImage = "url(img/product1_pic2.jpg)";
+          } else if (what == 3) {
+            document.getElementById("bigImg").style.backgroundImage = "url(img/product1_pic3.jpg)";
+          }
+        	return false;
+        }
+        </script>
 
   <div class="content">
     <h1>Thank you, your order is placed!</h1>

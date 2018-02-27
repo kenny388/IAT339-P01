@@ -154,7 +154,7 @@ background: white;
 
 .buttonBuy {
 		background-color:white;
-		border: 2px solid black;
+		border: 1px solid black;
     color: black;
     padding: 15px 32px;
     text-align: center;
@@ -166,7 +166,7 @@ background: white;
 }
 .buttonBuy:hover{
 	color: grey;
-	border:2px solid grey;
+	border:1px solid grey;
 }
 
 .priceCount {

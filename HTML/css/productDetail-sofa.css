@@ -128,15 +128,21 @@ left: 10%;
 }
 
 .content {
-	display: block;
+display: block;
 position: relative;
 float: right;
 width: 40%;
 height: 40em;
-top: 5em;
+top: 4em;
 right: 15%;
 
 
+}
+
+.colorOptions {
+border: 1px solid #777;
+padding: 0.5em 4em;
+/* -moz-appearance: none; */
 }
 
 .description{

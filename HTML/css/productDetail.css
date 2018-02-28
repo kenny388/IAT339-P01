@@ -13,8 +13,6 @@ width: 30%;
 /* left: -10em; */
 top: 5em;
 left: 10%;
-
-
 }
 
 .BigImg {
@@ -128,7 +126,7 @@ left: 10%;
 }
 
 .content {
-	display: block;
+display: block;
 position: relative;
 float: right;
 width: 40%;
@@ -172,4 +170,65 @@ background: white;
 #footer {
 	top:85em;
 
+}
+
+@media (max-width: 1920px) {
+	.content {
+		right: 3%;
+	}
+}
+
+@media (max-width: 1709px) {
+	.Images {
+		left: 10%
+	}
+}
+
+@media (max-width: 1707px) {
+	.Images {
+		left: 25%
+	}
+}
+
+@media (max-width: 1120px) {
+	.Images {
+		left: 10%;
+		width: 40%;
+
+	}
+	.content{
+		right: 10%;
+		width: 35%;
+	}
+}
+
+@media (max-width: 989px) {
+#footer {
+	top: 110em;
+}
+.Images {
+	left: 0%;
+	width: 50%;
+}
+.content{
+	right: 0%;
+	width: 45%;
+}
+}
+
+@media (max-width: 450px) {
+.Images {
+	width: 100%;
+	margin-bottom: 2em;
+}
+.BigImg {
+	height: 15em;
+}
+.content{
+	right: 0%;
+	width: 100%;
+}
+#footer{
+	top: 130em;
+}
 }

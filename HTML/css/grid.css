@@ -11,17 +11,7 @@
 	box-sizing: border-box;
 }
 
-@media (max-width: 1920px) {
-#footer {
-top: 100em;
-}
-}
 
-@media (max-width: 1500px) {
-#footer {
-top: 80em;
-}
-}
 
 @media (max-width: 989px) {
 .container {
@@ -61,16 +51,5 @@ body{
 	background-position: bottom center;
 }
 
-
-}
-
-@media (max-width: 480px) {
-	#footerlinkleft {
-		left:35%;
-	}
-
-	#footerlinkright {
-		left:60.5%;
-	}
 
 }

@@ -60,3 +60,36 @@ body{
 	top:80em;
 
 }
+
+@media (max-width: 1920px) {
+#footer {
+top: 100em;
+}
+}
+
+@media (max-width: 1500px) {
+#footer {
+top: 80em;
+}
+}
+
+@media (max-width: 650px) {
+#footer {
+	top: 50em;
+}
+}
+
+@media (max-width: 480px) {
+	#footerlinkleft {
+		left:35%;
+	}
+	#footerlinkright {
+		left:60.5%;
+	}
+}
+
+@media (max-width: 420px) {
+	#footer {
+		top: 35em;
+	}
+}

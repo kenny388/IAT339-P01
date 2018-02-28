@@ -141,3 +141,33 @@ background: white;
 	top:70em;
 
 }
+
+@media (max-width: 989px) {
+#footer {
+	top: 90em;
+}
+.content {
+	left: 20%;
+	max-width: 60%;
+}
+}
+
+@media (max-width: 490px) {
+#footer {
+	top: 80em;
+}
+.content {
+	left: 10%;
+	max-width: 80%;
+}
+}
+
+@media (max-width: 350px) {
+#footer {
+	top: 75em;
+}
+.content {
+	left: 5%;
+	max-width: 90%;
+}
+}

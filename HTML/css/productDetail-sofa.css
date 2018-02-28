@@ -193,7 +193,11 @@ background: white;
 		left: 25%
 	}
 }
-
+@media (max-width: 1239px) {
+	#footer{
+		top: 100em;
+	}
+}
 @media (max-width: 1120px) {
 	.Images {
 		left: 10%;
@@ -208,7 +212,7 @@ background: white;
 
 @media (max-width: 989px) {
 #footer {
-	top: 110em;
+	top: 120em;
 }
 .Images {
 	left: 0%;
@@ -220,7 +224,7 @@ background: white;
 }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 580px) {
 .Images {
 	width: 100%;
 	margin-bottom: 2em;
@@ -233,6 +237,6 @@ background: white;
 	width: 100%;
 }
 #footer{
-	top: 130em;
+	top: 150em;
 }
 }

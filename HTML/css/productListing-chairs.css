@@ -117,3 +117,24 @@
 #footer {
 	top:27em;
 }
+
+@media (max-width: 582px) {
+	.productList{
+		flex-flow: column;
+	}
+	.product1 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	.product2 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	.product3 {
+		width: 100%;
+		margin-bottom: 11em;
+	}
+	#footer{
+		top: 10em;
+	}
+}

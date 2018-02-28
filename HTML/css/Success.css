@@ -182,3 +182,50 @@ background: white;
 	top:80em;
 
 }
+
+@media (max-width: 1920px) {
+.Images {
+  left: 0%;
+  width: 34%;
+}
+  .content {
+		right: 10%;
+    width: 34%;
+	}
+
+}
+
+
+@media (max-width: 1707px) {
+	.Images {
+		left: 5%;
+    width: 42%;
+	}
+  .content {
+    right: 5%;
+    width: 42%;
+  }
+}
+
+@media (max-width: 989px) {
+#footer {
+	top: 200em;
+}
+.Images {
+	left: 5%;
+	width: 90%;
+}
+.content{
+	right: 5%;
+	width: 90%;
+}
+.BigImg {
+	height: 30em;
+}
+}
+
+@media (max-width: 570px) {
+.BigImg{
+  height:18em;
+}
+}

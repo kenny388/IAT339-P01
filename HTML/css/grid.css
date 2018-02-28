@@ -53,3 +53,25 @@ body{
 
 
 }
+
+@media (max-width: 600px) {
+	#footerlinkleft {
+		left:35%;
+	}
+
+	#footerlinkright {
+		left:57%;
+	}
+
+}
+
+@media (max-width: 400px) {
+	#footerlinkleft {
+		left:30%;
+	}
+
+	#footerlinkright {
+		left:57%;
+	}
+
+}

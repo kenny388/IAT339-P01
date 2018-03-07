@@ -9,6 +9,12 @@ background-color: #F7EEE9;
 
 }
 
+.dropbtn {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+
 input[type=text] {
   width: 100%;
   padding: 12px 20px;

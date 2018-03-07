@@ -16,6 +16,12 @@ input[type=text] {
     box-sizing: border-box;
 }
 
+.dropbtn {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+
 .Images {
 	position: relative;
 width: 30%;

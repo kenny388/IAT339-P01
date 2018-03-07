@@ -8,6 +8,12 @@ background-color: #F7EEE9;
 	/* top:-10%; */
 }
 
+.dropbtn {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+
 .Images {
 	position: relative;
 	display: block;

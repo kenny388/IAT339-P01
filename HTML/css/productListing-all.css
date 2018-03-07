@@ -11,6 +11,11 @@ margin-bottom: 6em;
 margin-left: 5%;
 }
 
+.dropbtn {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
 
 .productList{
 float: left;

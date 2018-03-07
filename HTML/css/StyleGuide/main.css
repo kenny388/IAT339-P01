@@ -1,11 +1,9 @@
-/*
-  STYLE GUIDE STYLING
-  Default styling for the style guide
-*/
 @import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
 
 body {
-  font-family: Abel;
+  font-family: Nanum Gothic, Abel, Verdana, sans-serif;
   padding: 2rem;
 }
 
@@ -40,15 +38,21 @@ section code {
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
-  padding: 1.25em 1.5em;
+  /* padding: 1.25em 1.5em; */
+  margin: 1.25em 1.5em;
   color: #000;
+  font-weight: bold;
   text-decoration: none;
-  -webkit-transition: color 0.5s ease-out;
-  transition: color 0.5s ease-out;
+  /* -webkit-transition: color 0.5s ease-out; */
+    padding-bottom: 6px;
+  /* transition: color 0.5s ease-out; */
 }
 
 .button-nav:hover, .button-nav:focus {
   font-weight: bold;
+  border-bottom: 2px solid #A8A79F;
+
+    color: #777;
 }
 
 .button {

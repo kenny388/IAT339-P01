@@ -259,7 +259,7 @@ float: left;
 	top:27em;
 }
 
-.dropdown a {
+.dropbtn {
 	border-bottom: 2px solid #A8A79F;
 	padding-bottom: 6px;
 }

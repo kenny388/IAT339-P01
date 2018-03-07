@@ -90,6 +90,14 @@ top: 80em;
 	margin-left: auto;
 	margin-right: auto;
 
+}
+.BgImgWrap {
+	width: 100%;
+	/* clear: center;
+	/* float: center; */
+	float:left;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 }

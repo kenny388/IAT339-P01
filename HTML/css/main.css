@@ -16,6 +16,18 @@ float: left;
 float: right;
 }
 
+.showButton {
+	display: none;
+	float: right;
+	width: 5%;
+	margin-right: 5%;
+	margin-top: 4em;
+}
+.DropArrowImage {
+	width:100%;
+	opacity: 0.6;
+}
+
 
 .container {
 	position: relative;
@@ -183,26 +195,6 @@ a:active, a:hover {
   color: #6E6E6E;
 }
 
-/* #buttons a:link {color: white;}
-#buttons a:visited {color: white;}
-#buttons a:hover{
-  color: #6E6E6E;
-} */
-
-/* #pagetop {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:100%;
-	height:101px;
-	z-index:0;
-	padding:20px;
-	border: none 2px solid;
-	font-size: 0.7em;
-	color: white;
-	text-align:center;
-	background-color:#111111;
-} */
 
 .logo {
 	/* position:absolute; */
@@ -230,94 +222,6 @@ a:active, a:hover {
 
 }
 
-/* #City {
-	position:absolute;
-	top:274px;
-	left:10.5%;
-	width:15%;
-	height:71px;
-	z-index:5;
-	padding:20px;
-	border: none 2px solid;
-	color: white;
-	text-align:center;
-	background-color:#333333;
-
-} */
-
-/* #Home {
-	position:absolute;
-	top:12em;
-	left:0%;
-	width:15%;
-	height:5em;
-	z-index:5;
-	padding:1.9em;
-	border: none 2px solid;
-	color: white;
-	text-align:center;
-	background-color:#404040;
-
-}
-
-#Shopping {
-	position:absolute;
-	top:12em;
-	left:15%;
-	width:15%;
-	height:5em;
-	z-index:1;
-	padding:1.9em;
-	border: none 2px solid;
-	color: white;
-	text-align:center;
-	background-color:#404040;
-
-}
-
-#ContactInfo {
-	position:absolute;
-	top:12em;
-	left:30%;
-	width:15%;
-	height:5em;
-	z-index:1;
-	padding:1.9em;
-	border: none 2px solid;
-	color: white;
-	text-align:center;
-	background-color:#404040;
-
-}
-
-#HoursLocation {
-	position:absolute;
-	top:12em;
-	left:45%;
-	width:15%;
-	height:5em;
-	z-index:1;
-	padding:1.9em;
-	border: none 2px solid;
-	color: white;
-	text-align:center;
-	background-color:#404040;
-
-}
-*/
-
-/* #Blank {
-	position:absolute;
-	top:12em;
-	left:0%;
-	width:100%;
-	height:5em;
-	z-index:1;
-	padding:1.9em;
-	border: none 2px solid;
-	background-color:#404040;
-
-} */
 
 #searchform { width: 90%; }
 
@@ -484,6 +388,7 @@ hr {
 		}
 @media (min-width: 990px) {
 		/* Change color of dropdown links on hover */
+
 		.dropdown-content a:hover {background-color: #E3DBD3}
 
 		.dropdown:hover .dropdown-content {
@@ -493,3 +398,9 @@ hr {
 		/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 		.show {display:block;}
 	}
+
+@media (max-width: 989px) {
+	.showButton {
+		display: block;
+	}
+}

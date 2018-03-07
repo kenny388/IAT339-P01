@@ -24,6 +24,8 @@
     </a>
   </div>
 
+  <div class="showButton"><a onclick="myFunction()"><img alt="XD" class="DropArrowImage" src="img/menu3.png"></a></img></div>
+<div id="container">
   <div class="container">
 
     <div class="item1"><strong><a href="Homepage.html">HOME</a></strong></div>
@@ -44,6 +46,7 @@
     <div class="item5"><strong><a href="news.html">NEWS</a></strong></div>
 
   </div>
+</div>
 
     <img alt="XD" class="chairBgImage" src="img/chair_2_cropped.png" width="600">
 
@@ -122,6 +125,17 @@ window.onclick = function(event) {
 
 </div>
 
+<script>
+function myFunction() {
+    console.log("here is clicking");
+    var x = document.getElementById("container");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+</script>
 
 
 </body>

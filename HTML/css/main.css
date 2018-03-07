@@ -423,23 +423,24 @@ hr {
 		    position: absolute;
 				/* margin-right: 50em; */
 				/* margin-left: auto; */
-		    background-color: rgba(247,238,233,0.9);
+		    /* background-color: rgba(247,238,233,0.9); */
 		    min-width: 15%;
-		    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);
 				z-index: 1;
 				margin-top: 1.83em;
 				margin-left: 2.5%;
-				border-style: solid;
+				/* border-style: solid; */
 				/* border: 3px, solid, black; */
 		}
 
 		/* Links inside the dropdown */
 		.dropdown-content a {
 		    color: black;
-		    padding: 12%;
+		    padding: 15%;
 		    text-decoration: none;
 		    display: block;
 				border: 3px, solid, white;
+				/* border: solid; */
 		}
 
 		/* Change color of dropdown links on hover */

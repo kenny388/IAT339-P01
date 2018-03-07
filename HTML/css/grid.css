@@ -46,6 +46,7 @@ width: 55%;
 }
 
 @media (max-width: 989px) {
+
 .container {
 	width: 100%;
 	flex-direction: column;
@@ -88,9 +89,17 @@ width: 55%;
 	height:1em;
 }
 
+.kclogo {
+margin-left: 0%;
+
+}
+
 .logoImage {
-width: 20%;
+width: 10%;
 height: auto;
+display: block;;
+margin-left: auto;
+margin-right: auto;
 }
 
 #footerlinkleft {
@@ -114,6 +123,14 @@ body{
 	#footerlinkright {
 		left:57%;
 	}
+
+}
+
+@media (max-width: 450px) {
+.logoImage {
+	width: 15%;
+	height: auto;
+}
 
 }
 

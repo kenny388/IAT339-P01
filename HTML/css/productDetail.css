@@ -6,6 +6,7 @@
 
 .Images {
 	position: relative;
+	display: block;
 	float: left;
 	width: 30%;
 	/* margin-left:4.7%; */

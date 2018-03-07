@@ -27,6 +27,8 @@ float: right;
 	flex-wrap: wrap;
 	width: 50%;
 	font-size: 0.8em;
+
+	margin-left: 40%;
 	  /* justify-content: center; */
 		/* align-self: stretch; */
 }

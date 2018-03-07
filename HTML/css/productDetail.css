@@ -170,7 +170,7 @@ background-color: #F7EEE9;
 }
 
 #footer {
-	top:85em;
+	top:20em;
 
 }
 
@@ -206,7 +206,7 @@ background-color: #F7EEE9;
 
 @media (max-width: 989px) {
 	#footer {
-		top: 110em;
+		top: 20em;
 	}
 	.Images {
 		left: 0%;
@@ -218,7 +218,7 @@ background-color: #F7EEE9;
 	}
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 	.Images {
 		width: 100%;
 		margin-bottom: 2em;
@@ -231,6 +231,6 @@ background-color: #F7EEE9;
 		width: 100%;
 	}
 	#footer{
-		top: 130em;
+		top: 25em;
 	}
 }

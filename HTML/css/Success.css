@@ -189,7 +189,7 @@ background: white;
 }
 
 #footer {
-	top:80em;
+	top:20em;
 
 }
 
@@ -219,7 +219,7 @@ background: white;
 
 @media (max-width: 989px) {
 #footer {
-	top: 200em;
+	top: 0em;
 }
 .Images {
 	left: 5%;

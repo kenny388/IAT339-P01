@@ -97,7 +97,7 @@ body{
 
 }
 
-.NewsHeader {
+.NewsHeadBar {
 	position: relative;
 	float: left;
 	/* background-color: rgba(158, 146, 143, 0.15); */
@@ -105,7 +105,7 @@ body{
 	color: black;
 	text-align: left;
 	display: inline-block;
-	font-size: 2em;
+	font-size: 1.2em;
 	/* padding: 1em 1em; */
 	width: 60%;
 	/* margin-top: 10em; */
@@ -132,7 +132,7 @@ body{
 	/* height: 40em; */
 	/* top: 1em; */
 	left: 15%;
-	top: 1em;
+	top: 3em;
 
 }
 
@@ -142,17 +142,28 @@ display: flex;
 height: 20em;
 border-style: solid;
 margin-bottom: 2em;
-
 }
+
+
 
 .newsImage {
-height: 180px;
-margin: 2em;
-
+/* height: 180px; */
+margin-right: 2em;
+margin-bottom: 1em;
 }
 
+.instagramLogo {
+	margin-left: 0.5em;
+}
+
+.socialMediaLogos img {
+	/* width: 2%; */
+	opacity: 0.5;
+}
+
+
 .newsContent {
-margin: 2em;
+/* margin: 2em; */
 
 }
 
@@ -164,8 +175,13 @@ margin: 2em;
 
 .description{
   /* max-width: 40em; */
+	font-size: 1.1em;
 }
 
+.para {
+/* margin: 1em; */
+
+}
 
 .buttons{
 background: white;
@@ -191,7 +207,7 @@ background: white;
 }
 
 #footer {
-	top:120em;
+	top:30em;
 
 }
 
@@ -232,6 +248,11 @@ height: 15em;
 .newsBlock {
 height: 20em;
 }
+
+.NewsHeadBar {
+	margin-left: 10%;
+	width: 80%;
+}
 }
 
 @media (max-width: 989px) {
@@ -260,7 +281,7 @@ height: 20em;
 	}
 	.newsImage {
 		margin: 1em;
-		margin-bottom: 0em;
+		/* margin-bottom: 0em; */
 	}
 	.newsContent {
 		margin-top: 0em;
@@ -271,4 +292,17 @@ height: 20em;
 .newsBlock {
 /* height: 20em; */
 }
+}
+
+@media (max-width: 800px) {
+	.newsImage {
+width: 90%;
+
+	}
+}
+
+@media (max-width: 450px) {
+	.NewsHeadBar {
+		font-size: 0.8em;
+	}
 }

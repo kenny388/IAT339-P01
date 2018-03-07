@@ -57,58 +57,62 @@
       <section>
 
         <h2>Navigation Button</h2>
+        <p class="description">Navigation buttons are easy to spot as they are very high in the visual hierarchy, they occupy a large portion of the site space on top. Therefore, with the feedback we got from website auditing, we decided to lower its font-weight and size to prevent it becoming a visual distrction. The hover effect is decorated with a custom underline done by using border-bottom and padding-bottom.</p>
 
         <h3>CSS selector:</h3>
         <p>.button-nav</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+        <code>&lt;a href="Homepage.html" class="button"&gt;Navigation Button&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button-nav">Default Button</a>
+        <a href="Homepage.html" class="button-nav">Navigation Button</a>
 
       </section>
 
       <section>
         <h2>In-text link</h2>
+        <p class="description">In-text links are differenciated from usual paragraphs by size and font-weightd difference. When hovered, it also presents a subtle shade of grey change.</p>
 
         <h3>CSS selector:</h3>
         <p>.in-text-link</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="link"&gt;Default link&lt;/a&gt;</code>
+        <code>&lt;strong&gt;&lt;a href="#" class="link"&gt;Default link&lt;/a&gt;&lt;/strong&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="in-text-link">Default Link</a>
+        <strong><a href="Homepage.html" class="in-text-link">In-text-Link</a></strong>
       </section>
 
       <section>
         <h2>Submit/Reset Buttons</h2>
+        <p class="description">The use of the submit/reset buttons are mostly for customers to proceed through the purchasing process. We decided to use comparatively lower visual weight styling for the buttons so that customers can feel formal and safe when purchasing products. It also has the hover effects of grey out font and border colour.</p>
+
 
         <h3>CSS selector:</h3>
         <p>.button</p>
 
         <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;Submit&lt;/a&gt;</code>
+        <code>&lt;a href="Homepage.html" class="button"&gt;Submit&lt;/a&gt;</code>
 
         <h3>Rendered element:</h3>
-        <a class="button">Submit</a>
+        <a href="Homepage.html" class="button">Submit</a>
       </section>
 
       <section>
         <h2>Text Input Field</h2>
 
         <h3>CSS selector:</h3>
-        <p>.textField</p>
+        <p>input [type=text]</p>
 
         <h3>Sample code:</h3>
         <code>&lt;input type="text" class="textField" name="firstname"&gt;</code>
 
         <h3>Rendered element:</h3>
         <form>
-            First name:
-            <input type="text" class="textField" name="firstname"><br>
-            Last name:
+            <p>First name:</p>
+            <input type="text" class="textField" name="firstname">
+            <p>Last name:</p>
             <input type="text" class="textField" name="lastname">
           </form>
       </section>
@@ -125,17 +129,17 @@
         <h2>Headings</h2>
 
                 <h3>CSS selector:</h3>
-                <p>h1, h2, h3</p>
+                <p>h1 h2 h3</p>
 
                 <h3>Sample code:</h3>
-                <code>&lt;h3 href="#"&gt;Header #3&lt;/h3&gt;</code>
-                <code>&lt;h2 href="#"&gt;Header #2&lt;/h2&gt;</code>
-                <code>&lt;h1 href="#"&gt;Header #1&lt;/h1&gt;</code>
+                <code>&lt;a href="Homepage.html"&gt;&lt;h1&gt;Header #1&lt;/h1&gt;&lt;/a&gt;</code><br>
+                <code>&lt;a href="Homepage.html"&gt;&lt;h2&gt;Header #2&lt;/h2&gt;&lt;/a&gt;</code><br>
+                <code>&lt;a href="Homepage.html"&gt;&lt;h3&gt;Header #3&lt;/h3&gt;&lt;/a&gt;</code><br>
 
                 <h3>Rendered element:</h3>
-                <h1>Header #1</h1>
-                <h2>Header #2</h2>
-                <h3>Header #3</h3>
+                <a href="Homepage.html"><h1>Header #1</h1></a>
+                <a href="Homepage.html"><h2>Header #2</h2></a>
+                <a href="Homepage.html"><h3>Header #3</h3></a>
 
 
 
@@ -151,7 +155,7 @@
         <code>&lt;p&gt;Blah&lt;/p&gt;</code>
 
         <h3>Rendered element:</h3>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p class="description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       </section>
 
       <section>
@@ -218,6 +222,7 @@
         <a class="button-nav">Nav Element 1</a>
         <a class="button-nav">Nav Element 2</a>
         <a class="button-nav">Nav Element 3</a>
+
       </section>
 
       <section>
@@ -225,11 +230,43 @@
 
         <h3>Rendered element:</h3>
 
-          <img src="images/home/u81.png" alt="Placeholder Image"><br>
+          <!-- <img src="images/home/u81.png" alt="Placeholder Image"><br>
           <h3>Home Made Hand Made Potato from our sink</h3>
           <p id="paragraphsample">The potato is fresh, chemically friendly, user friendly, I love eating them. You will too. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
           </p>
-          <h3 id="price">CND $280.49 </h3>
+          <h3 id="price">CND $280.49 </h3> -->
+          <div class="productList">
+
+
+                <a href="ProductDetail.html" class="product1">
+                  <div>
+                    <!-- Swedish for Leg Bed -->
+                  <h3 class="chair1Button">Rumpa Sängen</h3>
+                  <p>From Maruni’s 2016 collection, the Rumpa Sängen are simple, light, and playful. Designed by English designer Jasper Morrison. </p>
+                  <p>$2645.00 CAD</p>
+                    </div>
+                </a>
+
+
+                <a href="ProductDetail.html" class="product2">
+                  <div>
+                    <!-- Swedish for Waist Ground -->
+                   <h3 class="chair2Button">Midja Marken</h3>
+                   <p>A counter stool designed in 1935 by one of the world's most prominent architects - Alvar Aalto.</p>
+                   <p>$4520.00 CAD</p>
+                 </div>
+               </a>
+
+               <a href="ProductDetail.html" class="product3">
+                  <div>
+                    <!-- Swedish for Neck Protection -->
+                  <h3 class="chair3Button">Nackskydd</h3>
+                  <p>The Adam Stool collection is inspired by industrial design, an artist's studio, and a workshop. </p>
+                  <p>$3020.00 CAD</p>
+                </div>
+              </a>
+
+            </div>
 
 
 

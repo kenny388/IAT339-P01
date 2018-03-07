@@ -189,6 +189,11 @@ background: white;
 
 }
 
+.item5 a{
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
 @media (max-width: 1920px) {
 /* .content {
 	left: 0%;

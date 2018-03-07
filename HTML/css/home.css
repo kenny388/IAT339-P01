@@ -48,6 +48,11 @@ body{
 	margin-bottom: 1em;
 }
 
+.item1 a {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
 
 /*The Prperty tax title*/
 #sidenavtext h3 {

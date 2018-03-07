@@ -140,6 +140,11 @@ body{
 
 }
 
+.item4 a{
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
 @media (max-width: 989px) {
 	#footer {
 		top: 90em;

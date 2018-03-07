@@ -112,8 +112,14 @@ float: left;
 .chair3Button{
   margin-top: 20.5em;
 }
+
 #footer {
 	top:27em;
+}
+
+.dropdown a {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
 }
 
 @media (max-width: 582px) {

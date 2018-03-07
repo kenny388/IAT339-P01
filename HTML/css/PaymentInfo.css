@@ -18,6 +18,8 @@ input[type=text] {
   width: 30%;
   /* margin-left:4.7%; */
   /* left: -10em; */
+  clear: left;
+  float: left;
   top: 5em;
   left: 10%;
 }
@@ -133,9 +135,13 @@ input[type=text] {
   position: relative;
   float: right;
   width: 40%;
-  height: 40em;
+  /* height: 40em; */
   top: 5em;
   right: 15%;
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 25px;
+
+  padding: 3em;
 
 
 }
@@ -177,7 +183,7 @@ input[type=text] {
 
 @media (max-width: 1920px) {
   .Images {
-    left: 0%;
+    left: 10%;
     width: 34%;
   }
   .content {

@@ -19,7 +19,8 @@
 
 @media (max-width: 1513px) {
 	.container {
-width: 55%;
+width: 65%;
+margin-left: 20%;
 
 	}
 	.item1 {
@@ -114,6 +115,11 @@ body{
 	background-position: bottom center;
 }
 
+@media (max-width: 989px) {
+	body {
+	background-image: none;
+}
+}
 
 @media (max-width: 600px) {
 	#footerlinkleft {

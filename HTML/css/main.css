@@ -33,6 +33,30 @@ float: right;
 		/* align-self: stretch; */
 }
 
+.item1 a:hover {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+.dropbtn:hover {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+.item3 a:hover {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
+.item4 a:hover {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+.item5 a:hover {
+	border-bottom: 2px solid #A8A79F;
+	padding-bottom: 6px;
+}
+
 .item1 {
   flex-shrink: 1; /* default 1 */
 	top:12em;
@@ -150,8 +174,6 @@ a:visited {
 a:active, a:hover {
 	color: #6E6E6E;
 	/* text-decoration: underline; */
-	border-bottom: 2px solid #A8A79F;
-	padding-bottom: 6px;
 
 }
 

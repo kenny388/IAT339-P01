@@ -1,3 +1,7 @@
+body {
+background-color: #F7EEE9;
+}
+
 .furnitureTitle {
 position: relative;
 clear: left;
@@ -338,5 +342,3 @@ float: left;
 		}
 
 }
-
-

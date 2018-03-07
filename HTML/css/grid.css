@@ -47,6 +47,9 @@ margin-left: 20%;
 }
 
 @media (max-width: 989px) {
+.myDropdown {
+	display: none;
+}
 
 .container {
 	width: 100%;

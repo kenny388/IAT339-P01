@@ -8,11 +8,12 @@
 	position: relative;
 	display: block;
 	float: left;
+	clear: left;
 	width: 30%;
 	/* margin-left:4.7%; */
 	/* left: -10em; */
 	top: 5em;
-	left: 10%;
+	left: 20%;
 }
 
 .BigImg {
@@ -177,11 +178,11 @@
 
 @media (max-width: 1707px) {
 	.Images {
-		left: 25%
+		left: 20%
 	}
 }
 
-@media (max-width: 1120px) {
+@media (max-width: 1400px) {
 	.Images {
 		left: 10%;
 		width: 40%;

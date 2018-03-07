@@ -18,10 +18,10 @@ float: right;
 	float: right;
   display: flex;
 	flex-direction: row;
-	margin-top: 8.3em;
-  border-style: solid;
+	margin-top: 3em;
+  /* border-style: solid; */
 	flex-wrap: wrap;
-	width: 77%;
+	width: 50%;
 	  /* justify-content: center; */
 		/* align-self: stretch; */
 }
@@ -185,7 +185,7 @@ a:active, a:hover {
 	margin-top: 0.8%;
 	position: relative;
 	float: left;
-	margin-left: 4.5%;
+	margin-left: 1.5%;
 }
 
 .header-img {

@@ -14,13 +14,13 @@ input[type=text] {
 
 .Images {
 	position: relative;
-	float: left;
 width: 30%;
 /* margin-left:4.7%; */
 /* left: -10em; */
 top: 5em;
 left: 10%;
-
+clear: left;
+float: left;
 
 }
 
@@ -185,7 +185,7 @@ background: white;
 
 @media (max-width: 1920px) {
 .Images {
-  left: 0%;
+  left: 10%;
   width: 34%;
 }
   .content {
